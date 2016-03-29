@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="sisventas.vcategoria">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAEAAAAAAAAIAAAAAAAAAE=</HashCode>
+      <FileName>Logica\vcategoria.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="vproducto" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="sisventas.vcliente">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAABAAQAIAAAiAAAAABAEQAAAAAEgAAAAAAAAAI=</HashCode>
+      <FileName>Logica\vcliente.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sisventas.vdetalle_venta">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAAAgAEAABAAAAAAACAAAAAADAQAAAAAAQAA=</HashCode>
+      <FileName>Logica\vdetalle_venta.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sisventas.vproducto">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIEQAAAAAAgAAiQAAEAAAQEEABAAIAAIAAAAABEQgQ=</HashCode>
+      <FileName>Logica\vproducto.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="vdetalle_venta" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="sisventas.vusuario">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCIAQAABQAQEIACAiAAAAAAAAQQAAAAAAAAAAiAAEAI=</HashCode>
+      <FileName>Logica\vusuario.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sisventas.vventa">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAwAAAAAAAAAAAAAAAAIAAACAAABABFgAAAAQBEAAA=</HashCode>
+      <FileName>Logica\vventa.vb</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="vdetalle_venta" />
+      <Property Name="vcliente" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

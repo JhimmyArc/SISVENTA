@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="sisventas.conexion">
+    <Position X="7.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAgAAAAEAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Datos\conexion.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sisventas.fbackup">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Datos\fbackup.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sisventas.fcategoria">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAgAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Datos\fcategoria.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sisventas.fcliente">
+    <Position X="1" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAgAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Datos\fcliente.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sisventas.fdetalle_venta">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAQEAAAAgAAAAAAAAAAAABgAAAAAAAA=</HashCode>
+      <FileName>Datos\fdetalle_venta.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sisventas.fproducto">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAgAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Datos\fproducto.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sisventas.fusuario">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Datos\fusuario.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sisventas.fventa">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <InheritanceLine Type="sisventas.conexion" FixedFromPoint="true">
+      <Path>
+        <Point X="8" Y="4.75" />
+        <Point X="8" Y="4.375" />
+        <Point X="10.25" Y="4.375" />
+        <Point X="10.25" Y="2.761" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQEAAAAgAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Datos\fventa.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
